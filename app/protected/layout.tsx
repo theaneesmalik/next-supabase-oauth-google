@@ -1,4 +1,3 @@
-import './globals.css'
 import { createClient } from '@/utils/supabase/server'
 import { redirect } from 'next/navigation'
 const defaultUrl = `${process.env.NEXT_PUBLIC_URL!}protected`
